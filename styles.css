@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(300deg, #3a0646, 20%, #b20474 80%);
+
+}
+
+#wrapper{
+    max-width: 800px;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 70vh;
+    box-shadow: .8rem 4.6rem rgba(0, 0, 0, 0.511);
+}
+.img__container{
+    padding-inline: 2rem;
+    background: linear-gradient(300deg, #3a0646, #b20474 50%);
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.img__container>img{
+    object-fit: cover;
+    width: 60%;
+    height: 45vh;
+}
+.img__container>p{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.form_wrapper{
+    border-left: 10px solid #fff;
+    background-color: #e7e7e7;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 3rem 0 2rem 0;
+}
+
+.form_wrapper>h4{
+    display: inline-block;
+    padding: .6rem 1rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(300deg, #3a0646 20%, #b20474 60%);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -11px;
+    margin-bottom: 3rem;     
+}
+
+
+form>h1{
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    color: purple;
+    font-weight: 600;
+}
+
+.input__container{
+    border-bottom: 1px solid;
+    margin: .8rem auto;
+    width: 200px;
+}
+
+
+
+.input__container>input{
+    width: 100%;
+    padding-block: .3rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.input__container>input::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+    opacity: .7;
+}
+
+form>a{
+    display: block;
+    color: rgb(101, 101,101);
+    font-size: 11px;
+    width: 230px;
+    margin: auto;
+    font-weight: 600;
+}
+
+form>a>span{
+    color: purple;
+}
+
+.btn{
+    border: 2px solid;
+    width: 150px;
+    margin: .8rem auto;
+    border: none;
+}
+
+btn>button{
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding-block: .4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: linear-gradient(300deg, #3a0646 20%, #b20474 60%);
+}
+
+form>p{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 12px;
+    color: rgb(101, 101, 101);
+}
+
+form>p>span{
+    color: purple;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
