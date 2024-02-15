@@ -113,7 +113,7 @@ form>a>span{
     border: none;
 }
 
-btn>button{
+.btn>button{
     width: 100%;
     border: none;
     color: #fff;
